@@ -1,7 +1,6 @@
 'use strict';
 
 const { release } = require('./package.json');
-const childProcess = require('child_process');
 
 module.exports.RELEASE = release;
 module.exports.PORT = process.env.PORT || 51821;
