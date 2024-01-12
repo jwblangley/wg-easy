@@ -2,7 +2,7 @@
 
 const path = require('path');
 const bcrypt = require('bcryptjs');
-const crypto = require('crypto');
+const crypto = require('node:crypto');
 
 const Koa = require('koa');
 const Router = require('@koa/router');
